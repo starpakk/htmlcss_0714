@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'f1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'f2';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+/* 백설이 모든태그 라인헤이트 잡기 숫자가 배수가 된다 자간 레터스페이싱 기능사는 초기화작업이 중요한다  */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'f1';
+line-height: 2;
+color: #222;
+letter-spacing: -0.085em;
+}
+/* /오엘 점박이 순번이 나온다 리셋작업을 해줘야 한다 .*/
+ul,dl,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
